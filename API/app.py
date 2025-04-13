@@ -22,3 +22,7 @@ def get_superheroes_marvel():
     return rows
 
 
+@app.get("/superheroes")
+def get_superheroes_all():
+    rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg", "Ironman", "Thor", "Hulk", "Capitan America", "Viuda negra", "Doctor Strange", "Antman"]
+    return rows
